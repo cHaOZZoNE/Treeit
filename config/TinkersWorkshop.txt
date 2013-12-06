@@ -52,14 +52,14 @@ block {
     I:"Molten Ardite"=3207
     I:"Molten Bronze"=3208
     I:"Molten Cobalt"=3206
-    I:"Molten Copper"=4081
-    I:"Molten Electrum"=4084
+    I:"Molten Copper"=4082
+    I:"Molten Electrum"=4085
     I:"Molten Emerald"=3216
     I:"Molten Ender"=3218
     I:"Molten Glass"=3214
-    I:"Molten Gold"=4082
+    I:"Molten Gold"=4083
     I:"Molten Invar"=3199
-    I:"Molten Iron"=4083
+    I:"Molten Iron"=4084
     I:"Molten Lead"=3196
     I:"Molten Manyullyn"=3210
     I:"Molten Nickel"=3197
@@ -135,7 +135,7 @@ block {
 
 dimblacklist {
     # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
-    B:GenerateSlimeIslandInDim0Only=true
+    B:GenerateSlimeIslandInDim0Only=false
 
     # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
@@ -389,7 +389,7 @@ worldgen {
 
 "worldgen disabler" {
     B:"Add Village Generation"=true
-    B:"Generate Aluminum"=false
+    B:"Generate Aluminum"=true
     B:"Generate Aluminum Bushes"=true
     B:"Generate Cobalt and Ardite"=true
     B:"Generate Copper"=false
