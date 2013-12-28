@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <BlockIDs/>
+    <ItemIDs/>
+    <GeneralConfig>
+        <!--Modifying this will change the emerald recipe. True = 8 Gold Ingot <-> 1 Emerald False = 1 Diamond + 3 Cactus Green -> 1 Emerald-->
+        <defaultEmeraldTransmute>true</defaultEmeraldTransmute>
+        <!--Enabling this will allow you to craft Diamonds from Blaze rods-->
+        <blazeTransmute>false</blazeTransmute>
+        <!--Modifying this will change the Iron to Certus Quartz recipeTrue = 1 Certus Quartz <-> 2 Iron || False = 1 Certus Quartz <-> 2 Iron Blocks-->
+        <cqTransmute>true</cqTransmute>
+        <!--Disables steel transmutation-->
+        <steelTransmute>true</steelTransmute>
+        <enableAEQuratzRecipe>true</enableAEQuratzRecipe>
+        <!--Disable Uranium transmutations if they cause you to crash.-->
+        <ic2Uranium>true</ic2Uranium>
+        <!--Enables glowstone to redstone transmutation-->
+        <glowredstone>true</glowredstone>
+    </GeneralConfig>
+    <Other/>
+</configuration>

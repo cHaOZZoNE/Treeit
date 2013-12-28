@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <BlockIDs/>
+    <ItemIDs/>
+    <GeneralConfig>
+        <!--Will display different types of information when set to true. Useful for those who are using LomLib to develop their mods.-->
+        <debugMode>false</debugMode>
+        <!--Enable capes for approved users.(Client-side only)-->
+        <capes>true</capes>
+    </GeneralConfig>
+    <Other/>
+</configuration>
