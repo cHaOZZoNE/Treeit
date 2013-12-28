@@ -26,6 +26,7 @@ battlegear {
 block {
     I:"Air Tank"=3246
     I:"Birch Barricade"=1483
+    I:"Blood Channel"=3189
     I:"Casting Channel"=3249
     I:"Clear Glass"=3223
     I:"Clear Stained Glass"=3225
@@ -52,14 +53,14 @@ block {
     I:"Molten Ardite"=3207
     I:"Molten Bronze"=3208
     I:"Molten Cobalt"=3206
-    I:"Molten Copper"=4082
-    I:"Molten Electrum"=4085
+    I:"Molten Copper"=3203
+    I:"Molten Electrum"=3200
     I:"Molten Emerald"=3216
     I:"Molten Ender"=3218
     I:"Molten Glass"=3214
-    I:"Molten Gold"=4083
+    I:"Molten Gold"=3202
     I:"Molten Invar"=3199
-    I:"Molten Iron"=4084
+    I:"Molten Iron"=3201
     I:"Molten Lead"=3196
     I:"Molten Manyullyn"=3210
     I:"Molten Nickel"=3197
@@ -71,6 +72,9 @@ block {
     I:"Molten Tin"=3204
     I:"Multi Brick"=1481
     I:"Multi Brick Fancy"=1467
+    I:"Nether Lava Tank"=3186
+    I:"Nether Seared Block"=3188
+    I:"Nether Smeltery"=3187
     I:"Oak Barricade"=1469
     I:"Ore Berry One"=1485
     I:"Ore Berry Two"=1486
@@ -135,7 +139,7 @@ block {
 
 dimblacklist {
     # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
-    B:GenerateSlimeIslandInDim0Only=false
+    B:GenerateSlimeIslandInDim0Only=true
 
     # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
@@ -235,7 +239,7 @@ looks {
     I:"Alumite ingot return"=3
 
     # Number of ingots returned from smelting Bronze in the smeltery
-    I:"Bronze ingot return"=3
+    I:"Bronze ingot return"=4
 
     # Number of ingots returned from smelting ores in the smeltery
     I:"Ingots per ore"=2
